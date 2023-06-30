@@ -21,9 +21,7 @@
 .tab-wrapper_blok{
     width: 1170px;
     height: 500px;
-    border:1px solid gray;
     margin-top:21px;
-    border-top:white;
     display: flex;
     justify-content: center;
 }
@@ -31,7 +29,6 @@
     width:583px;
     height: 480px;
     margin:0;
-    border:1px solid gray;
     border-top: white;
     padding-left: 40px;
     padding-top:20px;
@@ -40,8 +37,9 @@
     width:583px;
     height:100%;
     margin:0;
-    border:1px solid gray;
-    border-top: white;
+    border-top: gray;
+    padding-left: 120px;
+
 }
 
 .tab-wrapper_content{
