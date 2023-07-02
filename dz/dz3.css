@@ -12,18 +12,24 @@
     width: 201px;
     height: 38px;
     background-color: white;
-    border: 1px solid gray;
+    border: 0.01px solid gray;
     float:left;
     margin:0px;
+
     border-radius: 5px 5px 0 0;
     color:gray;
 }
 .tab-wrapper_blok{
     width: 1170px;
     height: 500px;
-    margin-top:21px;
+    margin-top:1px;
     display: flex;
     justify-content: center;
+    margin: 0;
+    border: 1px solid gray;
+    color:black;
+ 
+    
 }
 .blok1{
     width:583px;
@@ -32,6 +38,9 @@
     border-top: white;
     padding-left: 40px;
     padding-top:20px;
+    margin-left: white;
+    border-top: gray;
+    border-right: white;
 }
 .blok2{
     width:583px;
@@ -39,7 +48,11 @@
     margin:0;
     border-top: gray;
     padding-left: 120px;
+    border-left: white;
 
+}
+.tab-wrapper_tab-action{
+    display: none;
 }
 
 .tab-wrapper_content{
@@ -55,5 +68,15 @@
 }
 #tab3:checked ~ .label3{
     border:1px solid white;
-
 }
+#tab2:checked ~ .tab-wrapper_blok{
+    border:1px solid white;
+    display: none;
+}
+#tab3:checked ~ .tab-wrapper_blok{
+    display: none;
+    border:1px solid gray;
+}
+
+
+
