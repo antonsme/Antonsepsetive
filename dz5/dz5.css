@@ -1,8 +1,14 @@
 *{
     margin: 0;
 }
-.wrapper{
-    margin:20px auto;
+.fullscreen{
+    height: 900px;
+    width: 100%;
+    background: #F5F5F5 ;
+    margin: 0 auto;
+}
+.fullscreen__wrapper{
+    margin:0px auto;
     background: #F5F5F5;
     width: 1508px;
     height: 900px;
