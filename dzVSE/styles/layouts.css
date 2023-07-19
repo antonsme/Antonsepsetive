@@ -44,7 +44,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: black;
+    text-decoration: none;
+}
+.links__link:hover{
+    background: #EC7979;
 }
 .headerblack__logo{
     width: 183px;
@@ -557,11 +560,13 @@ textarea::placeholder{
     color: white;
 }
 .table{
+    position: absolute;
     width: 470px;
     height: 450px;
- 
-    margin: 0 auto;
     border-radius: 10px;
+    top: 283px;
+    background: white;
+    left: 870px;
 }
 .table__article{
     margin: 0 auto;
@@ -605,13 +610,13 @@ textarea::placeholder{
 }
 .button__button{
     width: 470px;
-    height: 50px;
+    height: 53px;
     border-radius: 0 0 10px 10px;
     background: #EC7979;
-    border: 1px solid white;
     color:white;
-    font-family: Open Sans;
     font-size: 15px;
+    font-weight: 400;
+    border: 1px solid #EC7979;
 }
 .article__free{
     color:#EC7979; 
