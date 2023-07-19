@@ -696,3 +696,82 @@ textarea::placeholder{
     font-weight: 600;
 
 }
+
+/* --------------------------------------------------------------------- */
+.tab-wrapper{
+    width: 1170px;
+    height: 540px;
+    margin:20px auto;
+    border: 1px solid gray;
+    border-radius: 5px 5px 0 0;
+}
+.tab-wrapper__title{
+    width: 201px;
+    height: 38px;
+    background-color: white;
+    border: 0.01px solid gray;
+    float:left;
+    margin:0px;
+
+    border-radius: 5px 5px 0 0;
+    color:gray;
+}
+.tab-wrapper_blok{
+    width: 1170px;
+    height: 500px;
+    margin-top:1px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    border: 1px solid gray;
+    color:black;
+ 
+    
+}
+.blok1{
+    width:583px;
+    height: 480px;
+    margin:0;
+    border-top: white;
+    padding-left: 40px;
+    padding-top:20px;
+    margin-left: white;
+    border-top: gray;
+    border-right: white;
+    color:black;
+}
+.blok2{
+    width:583px;
+    height:100%;
+    margin:0;
+    border-top: gray;
+    padding-left: 120px;
+    border-left: white;
+
+}
+.tab-wrapper_tab-action{
+    display: none;
+}
+
+.tab-wrapper_content{
+    display: none;
+    border:1px solid gray;
+    padding:10px;  
+}
+#tab1:checked ~ .label1{
+    border:1px solid white;
+}
+#tab2:checked ~ .label2{
+    border:1px solid white;
+}
+#tab3:checked ~ .label3{
+    border:1px solid white;
+}
+#tab2:checked ~ .tab-wrapper_blok{
+    border:1px solid white;
+    display: none;
+}
+#tab3:checked ~ .tab-wrapper_blok{
+    display: none;
+    border:1px solid gray;
+}
