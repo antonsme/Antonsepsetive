@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+.proverka{
+    width: 1510px;
+    height: 75px;
+    position: fixed;
+}
 .headerblack{
     margin: 0px auto;
     width: 100%;
@@ -8,6 +13,8 @@
     background: black;
     position: fixed;
     z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 .background{
     margin: 0 auto;
@@ -32,6 +39,7 @@
     display: flex;
     justify-content: space-between;
     font-family: Open Sans;
+    position: 50%;
 }
 .background__opacity{
     width: 1510px;
@@ -211,7 +219,7 @@
     font-weight: 400;
 }
 .newfooter{
-    width: 1510px;
+    width: 100%;
     height: 164px;
     background: black;
     margin: 40px auto;
@@ -229,7 +237,7 @@
 }
 .newfooter__data{
     margin: 0 auto;
-    width: 1169px;
+    width: 100%;
     color: #FFFFFF80;
     font-family: Raleway;
     display: flex;
