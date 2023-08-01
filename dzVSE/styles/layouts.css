@@ -1418,11 +1418,18 @@ textarea::placeholder {
         width: 240px;
         position: absolute;
         left: 20px;
+        top: 40px;
     }
 
     .blok2__blok2 {
         width: 240px;
         justify-content: center;
+    }
+    .blok2__input{
+        position: absolute;
+        width: 240px;
+        height: 38px;
+        left: 0px;
     }
 
     .button__button {
@@ -1462,6 +1469,10 @@ textarea::placeholder {
         height: 26px;
         top: 169px;
         left: 16px;
+    }
+    .images__image{
+        width: 26px;
+        height: 26px;
     }
 
     .tab-header {
