@@ -1018,13 +1018,25 @@ textarea::placeholder {
 }
 
 .background__button:hover {
-    background: #E2E2E2;
-    color: #000000;
+    border: 1px solid #EC7979;
+    color: #EC7979;
 }
 
 .newheader__button:hover {
-    background: #E2E2E2;
-    color: #000000;
+    border: 1px solid #EC7979;
+    color: #EC7979;
+}
+#get:hover{
+    background-color: #AB4949;
+}
+#get:active{
+    border: 1px solid #AB4949;
+}
+#Donwload:hover{
+    background-color: #AB4949;
+}
+#Send:hover{
+    background-color: #AB4949;
 }
 
 @media(max-width:1024px) {
@@ -1744,7 +1756,7 @@ textarea::placeholder {
     }
 
     #idradio1:checked {
-        background-color: #86878B;
+        background: #86878B;
     }
 
     .headerblack__burgeropen {
