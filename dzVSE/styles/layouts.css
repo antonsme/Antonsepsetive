@@ -1,6 +1,9 @@
 * {
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .text2_mode2{
     display: none;
 }
@@ -1357,6 +1360,36 @@ textarea::placeholder {
     .headerblack {
         height: 56px;
     }
+    .labelrad1{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        border: 1px solid gray;
+        position: absolute;
+        display: block;
+        top: 573px;
+        left: 96px;
+    }
+    .labelrad2{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 573px;
+        left: 153px;
+        border: 1px solid gray;
+    }
+    .labelrad3{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        top: 573px;
+        right: 96px;
+        border: 1px solid gray;
+    }
 
     .headerblack__links {
         display: none;
@@ -1708,16 +1741,19 @@ textarea::placeholder {
     .radio1 {
         top: 573px;
         left: 96px;
+        display: none;
     }
 
     .radio2 {
         top: 573px;
         left: 153px;
+        display: none;
     }
 
     .radio3 {
         top: 573px;
         right: 96px;
+        display: none;
     }
     .cards__card.card2{
         display: none;
@@ -1753,9 +1789,16 @@ textarea::placeholder {
     .radios__radio {
         display: inline-block;
         border-radius: 50%;
+        display: none;
     }
 
-    #idradio1:checked {
+    #idradio1:checked ~ .labelrad1 {
+        background: #86878B;
+    }
+    #idradio2:checked ~ .labelrad2 {
+        background: #86878B;
+    }
+    #idradio3:checked ~ .labelrad3 {
         background: #86878B;
     }
 
