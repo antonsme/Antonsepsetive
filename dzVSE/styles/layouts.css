@@ -1736,6 +1736,7 @@ textarea::placeholder {
 
     .radios__radio {
         position: absolute;
+        
     }
 
     .radio1 {
@@ -1746,7 +1747,7 @@ textarea::placeholder {
 
     .radio2 {
         top: 573px;
-        left: 153px;
+        left: 170px;
         display: none;
     }
 
