@@ -1,9 +1,9 @@
 * {
     margin: 0;
 }
-body{
+/* body{
     overflow-x: hidden;
-}
+} */
 .text2_mode2{
     display: none;
 }
@@ -1044,7 +1044,7 @@ textarea::placeholder {
 
 @media(max-width:1024px) {
     .headerblack {
-        width: 100%;
+        width: 1024px;
     }
 
     .headerblack__links {
@@ -1359,6 +1359,8 @@ textarea::placeholder {
 @media (max-width: 320px) {
     .headerblack {
         height: 56px;
+        width: 320px;
+        position: relative;
     }
     .labelrad1{
         width: 14px;
@@ -1377,7 +1379,7 @@ textarea::placeholder {
         display: block;
         position: absolute;
         top: 573px;
-        left: 153px;
+        left: 144px;
         border: 1px solid gray;
     }
     .labelrad3{
@@ -1397,12 +1399,16 @@ textarea::placeholder {
 
     .proverka {
         width: 100%;
+        position: absolute;
 
     }
 
     .background {
         width: 100%;
         height: 1005px;
+    }
+    .background__background{
+        width: 320px;
     }
 
     .headerblack__logo {
@@ -1897,7 +1903,7 @@ textarea::placeholder {
     }
 
     .newheader {
-        width: 100%;
+        width: 310px;
         height: 358px;
         display: flex;
         margin-top: 20px;
@@ -2007,10 +2013,11 @@ textarea::placeholder {
         display: flex;
         height: 164px;
         margin: 0 auto;
+        width: 320px;
     }
 
     .newfooter__arts {
-        width: 100%;
+        width: 320px;
     }
 
     .arts__image {
